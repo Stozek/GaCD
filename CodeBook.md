@@ -42,7 +42,7 @@ by "Accelorometer", "Gyroscope" and "Magnitude" respectively. Dashes were replac
 
 ### Complete list of variables
 
-acvtivity
+acvtivity,
 subject
 tBodyAccelerometer_mean_XYZ
 tBodyAccelerometer_std_XYZ
