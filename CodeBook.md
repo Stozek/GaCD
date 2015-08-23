@@ -24,7 +24,8 @@ One of  the six:
 * "STANDING",
 * "WALKING",
 * "WALKING_DOWNSTAIRS",
-* "WALKING_UPSTAIRs".<br>
+* "WALKING_UPSTAIRs".
+
 It indicates what activity the subject was performing while measured.
 
 subject<br>
