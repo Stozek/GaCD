@@ -11,6 +11,7 @@ Description and explanation behind variables.
 >'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 Reference: features_info.txt, [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 Every variable was normalised to fit into [-1;1] range.
 
 
@@ -31,7 +32,7 @@ subject
 
 	Number between 1 and 30 describng which participant was present during particular measurments.
 
-### Changes in the original variables.
+### Changes and transformations of the original variables
 
 Only the measurments on the mean and standard deviation were selected (which is denoted by "_mean" and "_std" after variable name but before possible axis statement),
 then we've taken their mean by diffent activities and subjects. Furthermore (in order to improve readability) "Acc", "Gyro" and "Mag" parts of the names were substituted
