@@ -17,8 +17,7 @@ Every variable was normalised to fit into [-1;1] range.
 
 ### New variables
 
-activity
-
+activity<br>
 	One of  the six:
 	* "LAYING",
 	* "SITTING",
