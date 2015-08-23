@@ -1,6 +1,5 @@
 run_analysis = function(){
   library(dplyr)
-  library(tidyr)
   
   ## Loading data.
   dir = "~/UCI HAR Dataset"

@@ -1,4 +1,6 @@
 # Code Book
+Description and explanation behind variables.
+
 
 ### Description of original variables usade to create my dataset
 
@@ -8,10 +10,13 @@
 >These signals were used to estimate variables of the feature vector for each pattern:  
 >'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 Reference: features_info.txt, [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-Every variable was normalised to fit into [-1;1] range
+Every variable was normalised to fit into [-1;1] range.
+
+
 ### New variables
 
 activity
+
 	One of  the six:
 	* "LAYING",
 	* "SITTING",
@@ -20,11 +25,13 @@ activity
 	* "WALKING_DOWNSTAIRS",
 	* "WALKING_UPSTAIRs".
 	It indicates what activity the subject was performing while measured.
+
 subject
+
 	Number between 1 and 30 describng which participant was present during particular measurments.
 
 ### Changes in the original variables.
 
-Only the measurments on the mean and standard deviation were selected (which is denoted by "_mean" and "_std" after varaible name but before possible axis statement),
+Only the measurments on the mean and standard deviation were selected (which is denoted by "_mean" and "_std" after variable name but before possible axis statement),
 then we've taken their mean by diffent activities and subjects. Furthermore (in order to improve readability) "Acc", "Gyro" and "Mag" parts of the names were substituted
 by "Accelorometer", "Gyroscope" and "Magnitude" respectively. Dashes were replaced by underscores. 
