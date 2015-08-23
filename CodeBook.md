@@ -24,12 +24,11 @@ One of  the six:
 * "STANDING",
 * "WALKING",
 * "WALKING_DOWNSTAIRS",
-* "WALKING_UPSTAIRs".
+* "WALKING_UPSTAIRs".<br>
 It indicates what activity the subject was performing while measured.
 
-subject
-
-	Number between 1 and 30 describng which participant was present during particular measurments.
+subject<br>
+Number between 1 and 30 describng which participant was present during particular measurments.
 
 
 ### Changes and transformations of the original variables
