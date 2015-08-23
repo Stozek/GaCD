@@ -32,8 +32,51 @@ subject
 
 	Number between 1 and 30 describng which participant was present during particular measurments.
 
+
 ### Changes and transformations of the original variables
 
 Only the measurments on the mean and standard deviation were selected (which is denoted by "_mean" and "_std" after variable name but before possible axis statement),
 then we've taken their mean by diffent activities and subjects. Furthermore (in order to improve readability) "Acc", "Gyro" and "Mag" parts of the names were substituted
-by "Accelorometer", "Gyroscope" and "Magnitude" respectively. Dashes were replaced by underscores. 
+by "Accelorometer", "Gyroscope" and "Magnitude" respectively. Dashes were replaced by underscores and typos ("BodyBody" appearing in some names instead of "Body") were fixed.
+
+
+### Complete list of variables
+
+acvtivity
+subject
+tBodyAccelerometer_mean_XYZ
+tBodyAccelerometer_std_XYZ
+tGravityAccelerometer_mean_XYZ
+tGravityAccelerometer_std_XYZ
+tBodyAccelerometerJerk_mean_XYZ
+tBodyAccelerometerJerk_std_XYZ
+tBodyGyroscope_mean_XYZ
+tBodyGyroscope_std_XYZ
+tBodyGyroscopeJerk_mean_XYZ
+tBodyGyroscopeJerk_std_XYZ
+tBodyAccelerometerMagnitude_mean
+tBodyAccelerometerMagnitude_std
+tGravityAccelerometerMagnitude_mean
+tGravityAccelerometerMagnitude_std
+tBodyAccelerometerJerkMagnitude_mean
+tBodyAccelerometerJerkMagnitude_std
+tBodyGyroscopeMagnitude_mean
+tBodyGyroscopeMagnitude_std
+tBodyGyroscopeJerkMagnitude_mean
+tBodyGyroscopeJerkMagnitude_std
+fBodyAccelerometer_mean_XYZ
+fBodyAccelerometer_std_XYZ
+fBodyAccelerometerJerk_mean_XYZ
+fBodyAccelerometerJerk_std_XYZ
+fBodyGyroscope_mean_XYZ
+fBodyGyroscope_std_XYZ
+fBodyAccelerometerMagnitude_mean
+fBodyAccelerometerMagnitude_std
+fBodyAccelerometerJerkMagnitude_mean
+fBodyAccelerometerJerkMagnitude_std
+fBodyGyroscopeMagnitude_mean
+fBodyGyroscopeMagnitude_std
+fBodyGyroscopeJerkMagnitude_mean
+fBodyGyroscopeJerkMagnitude_std
+
+'_XYZ' denotes variable having measures on 3 directions.
