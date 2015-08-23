@@ -18,14 +18,14 @@ Every variable was normalised to fit into [-1;1] range.
 ### New variables
 
 activity<br>
-	One of  the six:
-	* "LAYING",
-	* "SITTING",
-	* "STANDING",
-	* "WALKING",
-	* "WALKING_DOWNSTAIRS",
-	* "WALKING_UPSTAIRs".
-	It indicates what activity the subject was performing while measured.
+One of  the six:
+* "LAYING",
+* "SITTING",
+* "STANDING",
+* "WALKING",
+* "WALKING_DOWNSTAIRS",
+* "WALKING_UPSTAIRs".
+It indicates what activity the subject was performing while measured.
 
 subject
 
